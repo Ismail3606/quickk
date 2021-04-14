@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
+
+</head>
+<body>  
+
+tr&gt;
+    <table border="1px" width="100%" cellspeching="0">
+<tbody><tr> 
+     <th> Serial  </th>
+     <th> Tag name</th>
+     <th>description</th>
+    <th>Example</th>    
+    
+    </tr>
+<tr> 
+    <td> 01</td>
+    <td>h1</td>
+    <td>this is heading tag</td>
+    <td><h1>this is heading tag</h1></td>
+</tr>
+<tr> 
+
+    <td> 02</td>
+    <td>image</td>
+    <td>this is used for image</td>
+    <td><img sce="images/logo.png" width="200&#39; alt=" "=""></td>
+</tr>
+<tr>
+    <td>03</td>
+    <td>italic</td>
+    <td>Italic fornt</td>
+    <td><i>this is use for italic fornt</i></td>
+    </tr>
+    <tr>
+        <td>04</td>
+        <td>delate</td>
+        <td>this color is red</td>
+        <td><p>this color is  <del>blue</del> <ins>red</ins>!</p>
+        </td>
+    </tr>
+    <tr>
+        <td>05</td>
+        <td> smaller text</td>
+        <td>this is same smaller text</td>
+        <td><p><small>This is some smaller text.</small></p></td>
+    </tr>
+    <tr> 
+        <td>06</td>
+        <td> cite</td>
+        <td>the scream by Edward munch . painted in 1893/td&gt;
+        </td><td><p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+    </td></tr>
+
+<tr> 
+    <td>07</td>
+    <td> s</td>
+    <td>only 50 ticket left</td><td>
+    </td><td><p><s>Only 50 tickets left!</s></p>
+        <p>SOLD OUT!</p>
+</td></tr>
+<tr> 
+    <td>08</td>
+    <td> samp</td>
+    <td>used for samp</td><td>
+    </td><td><p><samp>File not found.<br>Press F1 to continue</samp></p></td><td></td>
+
+</tr>
+
+<tr>
+    <td>09</td>
+    <td> B</td>
+    <td>this is bold tag</td>
+    <td><p>T <b> this is bold tag</b>.</p></td>
+</tr>
+
+<tr>
+    <td>10</td>
+    <td> u</td>
+    <td>this is underline tag</td>
+    <td><p>This is some <u>mispeled</u> text.</p></td>
+</tr><tr><td>11</td>
+    <td> strong</td>
+    <td>this is a bold tag also</td>
+    <td><strong>This is a bold tag also!</strong></td>
+</tr>
+<tr>
+    <td>12</td>
+    <td> h2</td>
+    <td>this is heading 2</td>
+    <td><h2>This is heading 2</h2></td>
+</tr>
+
+<tr>
+    <td>13</td>
+    <td> h3</td>
+    <td>this is heading 3</td>
+    <td><h3>This is heading 3</h3></td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+</tbody></table></body></html>
